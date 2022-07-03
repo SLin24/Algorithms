@@ -3,7 +3,7 @@
 using namespace std;
 typedef long long ll;
 int children[200000];
-//NOTE THAT THIS IS FOR A DIRECTIONAL TREE
+//NOTE THAT THIS IS FOR A DIRECTIONAL TREE WHERE 1 IS THE ROOT NODE. MINOR CHANGES FOR DIFFERENT PROBLEMS REQUIRED
 int dfs(const int& index, const vector<int> *tree) {
     children[index] = 0;
     for (auto x: tree[index]) {
