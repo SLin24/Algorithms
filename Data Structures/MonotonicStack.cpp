@@ -23,6 +23,7 @@ int main() {
         //inserting a new element into the stack
         stk.push(make_pair(arr[i], i));
     }
+    //prints the index of the first greater element to the right (0 indexed)
     for (int i = 0; i < n; i++) {
         cout << assign[i] << " ";
     }
