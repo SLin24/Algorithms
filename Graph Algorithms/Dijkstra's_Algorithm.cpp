@@ -4,7 +4,7 @@ using namespace std;
 typedef long long ll;
 
 
-//note that in this problem (CSES), the paths were unidirectional
+//note that in this problem (CSES), the paths were directed
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
